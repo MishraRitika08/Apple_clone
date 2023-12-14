@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root { 
+    --primary-color: rgba(0,0,0,0.56); 
+    --secondary-color: #0000b8; 
+} 
