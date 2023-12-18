@@ -4,6 +4,39 @@
     box-sizing: border-box;
 }
 :root { 
-    --primary-color: rgba(0,0,0,0.56); 
-    --secondary-color: #0000b8; 
+    --primary-color: rgba(0, 0, 0, 0.87); 
+    --secondary-color: #141414;
+    --text-color:#fff;
+    --accent-text-color:rgb(172, 169, 169);
 } 
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-up{
+   background-color: var(--secondary-color);
+   height: 45px;
+   color: var(--accent-text-color);  
+}
+.nav-up-element{
+    margin-left: 30px;
+}
+.nav-icon{
+    font-size:medium;
+}
+a{
+   color: var(--accent-text-color);
+   text-decoration: none;
+}
+.nav-bottom a{
+    color: rgb(65, 65, 197);
+}
+.fa-solid{
+    font-size: x-small;
+}
+.nav-bottom{
+    height: 50px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
